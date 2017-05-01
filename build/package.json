@@ -1,0 +1,43 @@
+{
+  "name": "game-of-three-server",
+  "version": "1.0.0",
+  "description": "Solution application for the lieferando.de assignment, Game of three server, socket.io implementation with express and mongoDB",
+  "author": "Yigit Yesilpinar <yigityesilpinar@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "6.9.3",
+    "npm": "3.10.10"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bluebird": "^3.4.7",
+    "babel-runtime": "^6.3.19",
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "cheerio": "^0.22.0",
+    "compression": "1.6.1",
+    "cors": "^2.8.1",
+    "cross-env": "1.0.7",
+    "css-loader": "^0.23.1",
+    "deep-freeze": "0.0.1",
+    "eslint": "2.9.0",
+    "eslint-plugin-import": "1.6.1",
+    "eslint-watch": "2.1.11",
+    "express": "4.13.4",
+    "express-validator": "^2.20.10",
+    "jsdom": "8.5.0",
+    "mongoose": "^4.7.5",
+    "npm-run-all": "^4.0.1",
+    "rimraf": "2.5.2",
+    "serve-favicon": "^2.3.2",
+    "socket.io": "^1.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT"
+}
